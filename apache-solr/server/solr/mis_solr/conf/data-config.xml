@@ -1,0 +1,16 @@
+<dataConfig>
+            <dataSource type="JdbcDataSource"
+                    driver="com.mysql.jdbc.Driver"
+                    url="jdbc:mysql://localhost:3306/test"
+                    batchSize="-1"
+                    user="root"
+                    password="" />
+
+            <document>
+                <entity name="test" query="select id, name from test;" >
+                    <field name="id" column="id" />
+                    <field name="name" column="name" />
+                  
+                </entity>
+            </document>
+        </dataConfig>

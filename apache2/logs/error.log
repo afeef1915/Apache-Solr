@@ -1,0 +1,317 @@
+[Thu May 11 19:23:22.855178 2017] [ssl:warn] [pid 6800:tid 400] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:22.978945 2017] [ssl:warn] [pid 6800:tid 400] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:22.978945 2017] [mpm_winnt:notice] [pid 6800:tid 400] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu May 11 19:23:22.978945 2017] [mpm_winnt:notice] [pid 6800:tid 400] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu May 11 19:23:22.978945 2017] [core:notice] [pid 6800:tid 400] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu May 11 19:23:22.980927 2017] [mpm_winnt:notice] [pid 6800:tid 400] AH00418: Parent: Created child process 9832
+[Thu May 11 19:23:23.559571 2017] [ssl:warn] [pid 9832:tid 272] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:23.677810 2017] [ssl:warn] [pid 9832:tid 272] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:23.679793 2017] [mpm_winnt:notice] [pid 9832:tid 272] AH00354: Child: Starting 64 worker threads.
+[Thu May 11 19:23:32.251919 2017] [mpm_winnt:notice] [pid 6800:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 11 19:23:34.254705 2017] [mpm_winnt:notice] [pid 9832:tid 272] AH00364: Child: All worker threads have exited.
+[Thu May 11 19:23:34.289928 2017] [mpm_winnt:notice] [pid 6800:tid 400] AH00430: Parent: Child process 9832 exited successfully.
+[Thu May 11 19:23:36.276842 2017] [ssl:warn] [pid 1116:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:36.400571 2017] [ssl:warn] [pid 1116:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:36.400571 2017] [mpm_winnt:notice] [pid 1116:tid 396] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu May 11 19:23:36.400571 2017] [mpm_winnt:notice] [pid 1116:tid 396] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu May 11 19:23:36.400571 2017] [core:notice] [pid 1116:tid 396] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu May 11 19:23:36.401573 2017] [mpm_winnt:notice] [pid 1116:tid 396] AH00418: Parent: Created child process 4132
+[Thu May 11 19:23:36.860582 2017] [ssl:warn] [pid 4132:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:36.969056 2017] [ssl:warn] [pid 4132:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 19:23:36.971061 2017] [mpm_winnt:notice] [pid 4132:tid 280] AH00354: Child: Starting 64 worker threads.
+[Thu May 11 19:24:39.698657 2017] [auth_basic:error] [pid 4132:tid 920] [client 127.0.0.1:59510] AH01617: user user: authentication failure for "/solr/": Password Mismatch, referer: http://127.0.0.1:81/
+[Thu May 11 19:24:48.530961 2017] [auth_basic:error] [pid 4132:tid 920] [client 127.0.0.1:59607] AH01617: user user: authentication failure for "/solr/": Password Mismatch, referer: http://127.0.0.1:81/
+[Thu May 11 19:24:55.427330 2017] [auth_basic:error] [pid 4132:tid 920] [client 127.0.0.1:59608] AH01617: user user: authentication failure for "/solr/": Password Mismatch, referer: http://127.0.0.1:81/
+[Thu May 11 19:24:56.282713 2017] [auth_basic:error] [pid 4132:tid 920] [client 127.0.0.1:59608] AH01618: user  not found: /solr/, referer: http://127.0.0.1:81/
+[Thu May 11 19:24:56.906239 2017] [auth_basic:error] [pid 4132:tid 920] [client 127.0.0.1:59608] AH01618: user  not found: /solr/, referer: http://127.0.0.1:81/
+[Thu May 11 19:25:31.403383 2017] [auth_basic:error] [pid 4132:tid 884] [client 127.0.0.1:59621] AH01617: user user: authentication failure for "/solr/": Password Mismatch, referer: http://127.0.0.1:81/
+[Mon May 15 18:14:18.418161 2017] [mpm_winnt:notice] [pid 1116:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 15 18:14:24.028362 2017] [mpm_winnt:notice] [pid 4132:tid 280] AH00364: Child: All worker threads have exited.
+[Mon May 15 18:14:40.972626 2017] [mpm_winnt:notice] [pid 1116:tid 396] AH00430: Parent: Child process 4132 exited successfully.
+[Mon May 15 18:16:33.724364 2017] [ssl:warn] [pid 5692:tid 400] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 18:16:34.391144 2017] [ssl:warn] [pid 5692:tid 400] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 18:16:34.391144 2017] [mpm_winnt:notice] [pid 5692:tid 400] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Mon May 15 18:16:34.391144 2017] [mpm_winnt:notice] [pid 5692:tid 400] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Mon May 15 18:16:34.391144 2017] [core:notice] [pid 5692:tid 400] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Mon May 15 18:16:34.392147 2017] [mpm_winnt:notice] [pid 5692:tid 400] AH00418: Parent: Created child process 7016
+[Mon May 15 18:16:34.913732 2017] [ssl:warn] [pid 7016:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 18:16:35.228025 2017] [ssl:warn] [pid 7016:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 18:16:35.231006 2017] [mpm_winnt:notice] [pid 7016:tid 284] AH00354: Child: Starting 64 worker threads.
+[Tue May 16 11:06:12.250661 2017] [mpm_winnt:notice] [pid 5692:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 16 11:06:15.016872 2017] [mpm_winnt:notice] [pid 7016:tid 284] AH00364: Child: All worker threads have exited.
+[Tue May 16 11:06:16.700699 2017] [mpm_winnt:notice] [pid 5692:tid 400] AH00430: Parent: Child process 7016 exited successfully.
+[Tue May 16 11:07:34.491967 2017] [ssl:warn] [pid 1828:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 11:07:35.117037 2017] [ssl:warn] [pid 1828:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 11:07:35.117037 2017] [mpm_winnt:notice] [pid 1828:tid 420] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 16 11:07:35.117037 2017] [mpm_winnt:notice] [pid 1828:tid 420] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 16 11:07:35.117037 2017] [core:notice] [pid 1828:tid 420] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 16 11:07:35.117037 2017] [mpm_winnt:notice] [pid 1828:tid 420] AH00418: Parent: Created child process 3220
+[Tue May 16 11:07:35.632717 2017] [ssl:warn] [pid 3220:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 11:07:35.898338 2017] [ssl:warn] [pid 3220:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 11:07:35.898338 2017] [mpm_winnt:notice] [pid 3220:tid 292] AH00354: Child: Starting 64 worker threads.
+[Tue May 16 12:18:33.549755 2017] [mpm_winnt:notice] [pid 1828:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 16 12:18:40.170375 2017] [mpm_winnt:notice] [pid 3220:tid 292] AH00364: Child: All worker threads have exited.
+[Tue May 16 12:18:48.503165 2017] [mpm_winnt:notice] [pid 1828:tid 420] AH00430: Parent: Child process 3220 exited successfully.
+[Tue May 16 12:20:00.094255 2017] [ssl:warn] [pid 2512:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 12:20:00.581703 2017] [ssl:warn] [pid 2512:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 12:20:00.581703 2017] [mpm_winnt:notice] [pid 2512:tid 420] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 16 12:20:00.581703 2017] [mpm_winnt:notice] [pid 2512:tid 420] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 16 12:20:00.581703 2017] [core:notice] [pid 2512:tid 420] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 16 12:20:00.581703 2017] [mpm_winnt:notice] [pid 2512:tid 420] AH00418: Parent: Created child process 4484
+[Tue May 16 12:20:01.003707 2017] [ssl:warn] [pid 4484:tid 304] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 12:20:01.159890 2017] [ssl:warn] [pid 4484:tid 304] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 12:20:01.159890 2017] [mpm_winnt:notice] [pid 4484:tid 304] AH00354: Child: Starting 64 worker threads.
+[Tue May 16 16:35:32.737343 2017] [mpm_winnt:notice] [pid 2512:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 16 16:35:37.725204 2017] [mpm_winnt:notice] [pid 4484:tid 304] AH00364: Child: All worker threads have exited.
+[Tue May 16 16:35:45.900548 2017] [mpm_winnt:notice] [pid 2512:tid 420] AH00430: Parent: Child process 4484 exited successfully.
+[Tue May 16 16:42:08.452127 2017] [ssl:warn] [pid 3608:tid 496] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:42:09.280128 2017] [ssl:warn] [pid 3608:tid 496] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:42:09.280128 2017] [mpm_winnt:notice] [pid 3608:tid 496] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 16 16:42:09.280128 2017] [mpm_winnt:notice] [pid 3608:tid 496] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 16 16:42:09.280128 2017] [core:notice] [pid 3608:tid 496] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 16 16:42:09.280128 2017] [mpm_winnt:notice] [pid 3608:tid 496] AH00418: Parent: Created child process 2348
+[Tue May 16 16:42:09.795821 2017] [ssl:warn] [pid 2348:tid 308] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:45:10.137413 2017] [ssl:warn] [pid 3580:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:45:10.622078 2017] [core:warn] [pid 3580:tid 408] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 16 16:45:10.668690 2017] [ssl:warn] [pid 3580:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:45:10.668690 2017] [mpm_winnt:notice] [pid 3580:tid 408] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 16 16:45:10.668690 2017] [mpm_winnt:notice] [pid 3580:tid 408] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 16 16:45:10.668690 2017] [core:notice] [pid 3580:tid 408] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 16 16:45:10.668690 2017] [mpm_winnt:notice] [pid 3580:tid 408] AH00418: Parent: Created child process 3460
+[Tue May 16 16:45:11.140533 2017] [ssl:warn] [pid 3460:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:45:11.343679 2017] [ssl:warn] [pid 3460:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:45:11.359306 2017] [mpm_winnt:notice] [pid 3460:tid 292] AH00354: Child: Starting 64 worker threads.
+[Tue May 16 16:47:10.436055 2017] [ssl:warn] [pid 3656:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:47:11.251926 2017] [core:warn] [pid 3656:tid 408] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 16 16:47:11.298803 2017] [ssl:warn] [pid 3656:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:47:11.298803 2017] [mpm_winnt:notice] [pid 3656:tid 408] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 16 16:47:11.298803 2017] [mpm_winnt:notice] [pid 3656:tid 408] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 16 16:47:11.298803 2017] [core:notice] [pid 3656:tid 408] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 16 16:47:11.298803 2017] [mpm_winnt:notice] [pid 3656:tid 408] AH00418: Parent: Created child process 4148
+[Tue May 16 16:47:11.736352 2017] [ssl:warn] [pid 4148:tid 296] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:47:11.939496 2017] [ssl:warn] [pid 4148:tid 296] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 16 16:47:11.955125 2017] [mpm_winnt:notice] [pid 4148:tid 296] AH00354: Child: Starting 64 worker threads.
+[Wed May 17 10:40:51.757333 2017] [ssl:warn] [pid 3884:tid 384] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:40:52.835550 2017] [core:warn] [pid 3884:tid 384] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 17 10:40:52.882298 2017] [ssl:warn] [pid 3884:tid 384] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:40:52.882298 2017] [mpm_winnt:notice] [pid 3884:tid 384] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Wed May 17 10:40:52.882298 2017] [mpm_winnt:notice] [pid 3884:tid 384] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed May 17 10:40:52.882298 2017] [core:notice] [pid 3884:tid 384] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Wed May 17 10:40:52.882298 2017] [mpm_winnt:notice] [pid 3884:tid 384] AH00418: Parent: Created child process 4332
+[Wed May 17 10:40:53.272965 2017] [ssl:warn] [pid 4332:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 18 10:05:23.455609 2017] [ssl:warn] [pid 4756:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 18 10:05:23.993079 2017] [core:warn] [pid 4756:tid 396] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 18 10:05:24.046249 2017] [ssl:warn] [pid 4756:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 18 10:05:24.047251 2017] [mpm_winnt:notice] [pid 4756:tid 396] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu May 18 10:05:24.047251 2017] [mpm_winnt:notice] [pid 4756:tid 396] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu May 18 10:05:24.047251 2017] [core:notice] [pid 4756:tid 396] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu May 18 10:05:24.048255 2017] [mpm_winnt:notice] [pid 4756:tid 396] AH00418: Parent: Created child process 5716
+[Thu May 18 10:05:24.463442 2017] [ssl:warn] [pid 5716:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 18 10:05:24.676723 2017] [ssl:warn] [pid 5716:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu May 18 10:05:24.678714 2017] [mpm_winnt:notice] [pid 5716:tid 280] AH00354: Child: Starting 64 worker threads.
+[Fri May 19 10:24:20.989523 2017] [ssl:warn] [pid 2532:tid 468] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 10:24:21.301849 2017] [core:warn] [pid 2532:tid 468] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 19 10:24:21.348726 2017] [ssl:warn] [pid 2532:tid 468] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 10:24:21.348726 2017] [mpm_winnt:notice] [pid 2532:tid 468] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Fri May 19 10:24:21.348726 2017] [mpm_winnt:notice] [pid 2532:tid 468] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri May 19 10:24:21.348726 2017] [core:notice] [pid 2532:tid 468] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Fri May 19 10:24:21.348726 2017] [mpm_winnt:notice] [pid 2532:tid 468] AH00418: Parent: Created child process 3208
+[Fri May 19 10:24:21.864410 2017] [ssl:warn] [pid 3208:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 10:24:22.067550 2017] [ssl:warn] [pid 3208:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 10:24:22.067550 2017] [mpm_winnt:notice] [pid 3208:tid 280] AH00354: Child: Starting 64 worker threads.
+[Mon May 22 11:26:40.613319 2017] [ssl:warn] [pid 5472:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 11:26:41.311188 2017] [core:warn] [pid 5472:tid 416] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 22 11:26:41.394295 2017] [ssl:warn] [pid 5472:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 11:26:41.394295 2017] [mpm_winnt:notice] [pid 5472:tid 416] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Mon May 22 11:26:41.394295 2017] [mpm_winnt:notice] [pid 5472:tid 416] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Mon May 22 11:26:41.394295 2017] [core:notice] [pid 5472:tid 416] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Mon May 22 11:26:41.395277 2017] [mpm_winnt:notice] [pid 5472:tid 416] AH00418: Parent: Created child process 6772
+[Mon May 22 11:26:41.854241 2017] [ssl:warn] [pid 6772:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 11:26:42.187582 2017] [ssl:warn] [pid 6772:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 11:26:42.189586 2017] [mpm_winnt:notice] [pid 6772:tid 284] AH00354: Child: Starting 64 worker threads.
+[Tue May 23 10:20:03.308102 2017] [ssl:warn] [pid 5144:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 23 10:20:04.032925 2017] [core:warn] [pid 5144:tid 292] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 23 10:20:04.092084 2017] [ssl:warn] [pid 5144:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 23 10:20:04.093087 2017] [mpm_winnt:notice] [pid 5144:tid 292] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 23 10:20:04.093087 2017] [mpm_winnt:notice] [pid 5144:tid 292] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 23 10:20:04.093087 2017] [core:notice] [pid 5144:tid 292] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 23 10:20:04.094089 2017] [mpm_winnt:notice] [pid 5144:tid 292] AH00418: Parent: Created child process 6200
+[Tue May 23 10:20:04.656990 2017] [ssl:warn] [pid 6200:tid 300] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 23 10:20:04.850751 2017] [ssl:warn] [pid 6200:tid 300] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 23 10:20:04.853731 2017] [mpm_winnt:notice] [pid 6200:tid 300] AH00354: Child: Starting 64 worker threads.
+[Fri May 26 10:04:32.102604 2017] [ssl:warn] [pid 5424:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 26 10:04:32.850118 2017] [core:warn] [pid 5424:tid 416] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 26 10:04:32.909307 2017] [ssl:warn] [pid 5424:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 26 10:04:32.909307 2017] [mpm_winnt:notice] [pid 5424:tid 416] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Fri May 26 10:04:32.909307 2017] [mpm_winnt:notice] [pid 5424:tid 416] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri May 26 10:04:32.909307 2017] [core:notice] [pid 5424:tid 416] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Fri May 26 10:04:32.910307 2017] [mpm_winnt:notice] [pid 5424:tid 416] AH00418: Parent: Created child process 5576
+[Fri May 26 10:04:33.516033 2017] [ssl:warn] [pid 5576:tid 252] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 26 10:04:33.739254 2017] [ssl:warn] [pid 5576:tid 252] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri May 26 10:04:33.754272 2017] [mpm_winnt:notice] [pid 5576:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue May 30 10:15:08.576112 2017] [ssl:warn] [pid 3976:tid 368] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 30 10:15:09.895014 2017] [core:warn] [pid 3976:tid 368] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 30 10:15:09.948157 2017] [ssl:warn] [pid 3976:tid 368] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 30 10:15:09.948157 2017] [mpm_winnt:notice] [pid 3976:tid 368] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue May 30 10:15:09.948157 2017] [mpm_winnt:notice] [pid 3976:tid 368] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue May 30 10:15:09.948157 2017] [core:notice] [pid 3976:tid 368] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue May 30 10:15:09.950162 2017] [mpm_winnt:notice] [pid 3976:tid 368] AH00418: Parent: Created child process 5328
+[Tue May 30 10:15:10.637572 2017] [ssl:warn] [pid 5328:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 30 10:15:11.039199 2017] [ssl:warn] [pid 5328:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue May 30 10:15:11.475961 2017] [mpm_winnt:notice] [pid 5328:tid 280] AH00354: Child: Starting 64 worker threads.
+[Wed May 31 10:13:03.456917 2017] [ssl:warn] [pid 3324:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 31 10:13:03.785074 2017] [core:warn] [pid 3324:tid 404] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 31 10:13:03.831942 2017] [ssl:warn] [pid 3324:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 31 10:13:03.831942 2017] [mpm_winnt:notice] [pid 3324:tid 404] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Wed May 31 10:13:03.831942 2017] [mpm_winnt:notice] [pid 3324:tid 404] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed May 31 10:13:03.831942 2017] [core:notice] [pid 3324:tid 404] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Wed May 31 10:13:03.831942 2017] [mpm_winnt:notice] [pid 3324:tid 404] AH00418: Parent: Created child process 4300
+[Wed May 31 10:13:04.347594 2017] [ssl:warn] [pid 4300:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 31 10:13:04.628874 2017] [ssl:warn] [pid 4300:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed May 31 10:13:04.879081 2017] [mpm_winnt:notice] [pid 4300:tid 280] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 01 10:18:09.237649 2017] [ssl:warn] [pid 3536:tid 392] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 01 10:18:09.471925 2017] [core:warn] [pid 3536:tid 392] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 01 10:18:09.518744 2017] [ssl:warn] [pid 3536:tid 392] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 01 10:18:09.518744 2017] [mpm_winnt:notice] [pid 3536:tid 392] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu Jun 01 10:18:09.518744 2017] [mpm_winnt:notice] [pid 3536:tid 392] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Jun 01 10:18:09.518744 2017] [core:notice] [pid 3536:tid 392] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu Jun 01 10:18:09.518744 2017] [mpm_winnt:notice] [pid 3536:tid 392] AH00418: Parent: Created child process 4112
+[Thu Jun 01 10:18:09.971917 2017] [ssl:warn] [pid 4112:tid 304] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 01 10:18:10.253199 2017] [ssl:warn] [pid 4112:tid 304] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 01 10:18:10.315895 2017] [mpm_winnt:notice] [pid 4112:tid 304] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 02 10:18:01.374945 2017] [ssl:warn] [pid 3304:tid 432] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 02 10:18:01.937752 2017] [core:warn] [pid 3304:tid 432] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 02 10:18:01.984386 2017] [ssl:warn] [pid 3304:tid 432] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 02 10:18:01.984386 2017] [mpm_winnt:notice] [pid 3304:tid 432] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Fri Jun 02 10:18:01.984386 2017] [mpm_winnt:notice] [pid 3304:tid 432] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri Jun 02 10:18:01.984386 2017] [core:notice] [pid 3304:tid 432] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Fri Jun 02 10:18:01.984386 2017] [mpm_winnt:notice] [pid 3304:tid 432] AH00418: Parent: Created child process 4276
+[Fri Jun 02 10:18:03.051068 2017] [ssl:warn] [pid 4276:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 02 10:18:03.379259 2017] [ssl:warn] [pid 4276:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 02 10:18:03.379259 2017] [mpm_winnt:notice] [pid 4276:tid 284] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 05 10:09:13.157341 2017] [ssl:warn] [pid 4056:tid 380] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 05 10:09:13.339188 2017] [core:warn] [pid 4056:tid 380] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 05 10:09:13.399324 2017] [ssl:warn] [pid 4056:tid 380] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 05 10:09:13.399324 2017] [mpm_winnt:notice] [pid 4056:tid 380] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Mon Jun 05 10:09:13.399324 2017] [mpm_winnt:notice] [pid 4056:tid 380] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Mon Jun 05 10:09:13.399324 2017] [core:notice] [pid 4056:tid 380] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Mon Jun 05 10:09:13.400327 2017] [mpm_winnt:notice] [pid 4056:tid 380] AH00418: Parent: Created child process 5724
+[Mon Jun 05 10:09:13.922437 2017] [ssl:warn] [pid 5724:tid 308] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 05 10:09:14.355993 2017] [ssl:warn] [pid 5724:tid 308] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 05 10:09:14.456725 2017] [mpm_winnt:notice] [pid 5724:tid 308] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 06 09:45:17.153502 2017] [ssl:warn] [pid 4076:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 06 09:45:17.803432 2017] [core:warn] [pid 4076:tid 416] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 06 09:45:17.854569 2017] [ssl:warn] [pid 4076:tid 416] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 06 09:45:17.855572 2017] [mpm_winnt:notice] [pid 4076:tid 416] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue Jun 06 09:45:17.855572 2017] [mpm_winnt:notice] [pid 4076:tid 416] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue Jun 06 09:45:17.855572 2017] [core:notice] [pid 4076:tid 416] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue Jun 06 09:45:17.856577 2017] [mpm_winnt:notice] [pid 4076:tid 416] AH00418: Parent: Created child process 4408
+[Tue Jun 06 09:45:22.018604 2017] [ssl:warn] [pid 4408:tid 292] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 10:21:12.204432 2017] [ssl:warn] [pid 4036:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 10:21:12.345092 2017] [core:warn] [pid 4036:tid 404] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 07 10:21:12.391749 2017] [ssl:warn] [pid 4036:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 10:21:12.391749 2017] [mpm_winnt:notice] [pid 4036:tid 404] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Wed Jun 07 10:21:12.391749 2017] [mpm_winnt:notice] [pid 4036:tid 404] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed Jun 07 10:21:12.391749 2017] [core:notice] [pid 4036:tid 404] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Wed Jun 07 10:21:12.391749 2017] [mpm_winnt:notice] [pid 4036:tid 404] AH00418: Parent: Created child process 3748
+[Wed Jun 07 10:21:13.376229 2017] [ssl:warn] [pid 3748:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 10:21:13.548102 2017] [ssl:warn] [pid 3748:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 10:21:13.548102 2017] [mpm_winnt:notice] [pid 3748:tid 280] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 08 09:52:14.850767 2017] [ssl:warn] [pid 4100:tid 440] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 08 09:52:15.723008 2017] [core:warn] [pid 4100:tid 440] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 08 09:52:15.777388 2017] [ssl:warn] [pid 4100:tid 440] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 08 09:52:15.777388 2017] [mpm_winnt:notice] [pid 4100:tid 440] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu Jun 08 09:52:15.777388 2017] [mpm_winnt:notice] [pid 4100:tid 440] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Jun 08 09:52:15.777388 2017] [core:notice] [pid 4100:tid 440] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu Jun 08 09:52:15.778392 2017] [mpm_winnt:notice] [pid 4100:tid 440] AH00418: Parent: Created child process 6128
+[Thu Jun 08 09:52:16.209155 2017] [ssl:warn] [pid 6128:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 08 09:52:16.554269 2017] [ssl:warn] [pid 6128:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 08 09:52:16.556280 2017] [mpm_winnt:notice] [pid 6128:tid 280] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 09 09:45:34.799971 2017] [ssl:warn] [pid 4028:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 09 09:45:35.068994 2017] [core:warn] [pid 4028:tid 396] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 09 09:45:35.131408 2017] [ssl:warn] [pid 4028:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 09 09:45:35.131408 2017] [mpm_winnt:notice] [pid 4028:tid 396] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Fri Jun 09 09:45:35.131408 2017] [mpm_winnt:notice] [pid 4028:tid 396] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri Jun 09 09:45:35.131408 2017] [core:notice] [pid 4028:tid 396] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Fri Jun 09 09:45:35.131408 2017] [mpm_winnt:notice] [pid 4028:tid 396] AH00418: Parent: Created child process 4500
+[Fri Jun 09 09:45:35.600206 2017] [ssl:warn] [pid 4500:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 09 09:45:35.772101 2017] [ssl:warn] [pid 4500:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 09 09:45:35.787744 2017] [mpm_winnt:notice] [pid 4500:tid 284] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 13 09:29:45.098077 2017] [ssl:warn] [pid 3956:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 13 09:29:45.946252 2017] [core:warn] [pid 3956:tid 408] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 13 09:29:46.187750 2017] [ssl:warn] [pid 3956:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 13 09:29:46.188753 2017] [mpm_winnt:notice] [pid 3956:tid 408] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue Jun 13 09:29:46.188753 2017] [mpm_winnt:notice] [pid 3956:tid 408] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue Jun 13 09:29:46.188753 2017] [core:notice] [pid 3956:tid 408] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue Jun 13 09:29:46.189759 2017] [mpm_winnt:notice] [pid 3956:tid 408] AH00418: Parent: Created child process 1696
+[Tue Jun 13 09:29:46.883344 2017] [ssl:warn] [pid 1696:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 14 09:42:02.154639 2017] [ssl:warn] [pid 3152:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 14 09:42:02.373493 2017] [core:warn] [pid 3152:tid 420] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 14 09:42:02.425581 2017] [ssl:warn] [pid 3152:tid 420] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 14 09:42:02.425581 2017] [mpm_winnt:notice] [pid 3152:tid 420] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Wed Jun 14 09:42:02.425581 2017] [mpm_winnt:notice] [pid 3152:tid 420] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed Jun 14 09:42:02.425581 2017] [core:notice] [pid 3152:tid 420] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Wed Jun 14 09:42:02.426585 2017] [mpm_winnt:notice] [pid 3152:tid 420] AH00418: Parent: Created child process 5964
+[Wed Jun 14 09:42:03.023374 2017] [ssl:warn] [pid 5964:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 14 09:42:03.312430 2017] [ssl:warn] [pid 5964:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 14 09:42:03.315438 2017] [mpm_winnt:notice] [pid 5964:tid 284] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 15 10:37:26.139826 2017] [ssl:warn] [pid 692:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 15 10:37:26.956668 2017] [core:warn] [pid 692:tid 404] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 15 10:37:27.106440 2017] [ssl:warn] [pid 692:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 15 10:37:27.106440 2017] [mpm_winnt:notice] [pid 692:tid 404] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu Jun 15 10:37:27.106440 2017] [mpm_winnt:notice] [pid 692:tid 404] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Jun 15 10:37:27.106440 2017] [core:notice] [pid 692:tid 404] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu Jun 15 10:37:27.107443 2017] [mpm_winnt:notice] [pid 692:tid 404] AH00418: Parent: Created child process 5592
+[Thu Jun 15 10:37:27.848129 2017] [ssl:warn] [pid 5592:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 15 10:37:28.307093 2017] [ssl:warn] [pid 5592:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 15 10:37:29.028608 2017] [mpm_winnt:notice] [pid 5592:tid 280] AH00354: Child: Starting 64 worker threads.
+[Fri Jun 16 09:55:10.384377 2017] [ssl:warn] [pid 4108:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 09:55:11.324780 2017] [core:warn] [pid 4108:tid 408] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 16 09:55:11.387026 2017] [ssl:warn] [pid 4108:tid 408] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 09:55:11.387026 2017] [mpm_winnt:notice] [pid 4108:tid 408] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Fri Jun 16 09:55:11.387026 2017] [mpm_winnt:notice] [pid 4108:tid 408] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri Jun 16 09:55:11.387026 2017] [core:notice] [pid 4108:tid 408] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Fri Jun 16 09:55:11.387026 2017] [mpm_winnt:notice] [pid 4108:tid 408] AH00418: Parent: Created child process 6100
+[Fri Jun 16 09:55:12.219211 2017] [ssl:warn] [pid 6100:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 09:55:12.484865 2017] [ssl:warn] [pid 6100:tid 284] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 09:55:12.688212 2017] [mpm_winnt:notice] [pid 6100:tid 284] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 19 10:04:52.816309 2017] [ssl:warn] [pid 3840:tid 468] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 19 10:04:53.035195 2017] [core:warn] [pid 3840:tid 468] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 19 10:04:53.097517 2017] [ssl:warn] [pid 3840:tid 468] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 19 10:04:53.097517 2017] [mpm_winnt:notice] [pid 3840:tid 468] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Mon Jun 19 10:04:53.097517 2017] [mpm_winnt:notice] [pid 3840:tid 468] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Mon Jun 19 10:04:53.097517 2017] [core:notice] [pid 3840:tid 468] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Mon Jun 19 10:04:53.097517 2017] [mpm_winnt:notice] [pid 3840:tid 468] AH00418: Parent: Created child process 4544
+[Mon Jun 19 10:04:53.535091 2017] [ssl:warn] [pid 4544:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 19 10:04:53.722584 2017] [ssl:warn] [pid 4544:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 19 10:04:53.816588 2017] [mpm_winnt:notice] [pid 4544:tid 280] AH00354: Child: Starting 64 worker threads.
+[Tue Jun 20 10:41:03.262440 2017] [ssl:warn] [pid 3064:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 20 10:41:03.434578 2017] [core:warn] [pid 3064:tid 404] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jun 20 10:41:03.481241 2017] [ssl:warn] [pid 3064:tid 404] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 20 10:41:03.481241 2017] [mpm_winnt:notice] [pid 3064:tid 404] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Tue Jun 20 10:41:03.481241 2017] [mpm_winnt:notice] [pid 3064:tid 404] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue Jun 20 10:41:03.481241 2017] [core:notice] [pid 3064:tid 404] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Tue Jun 20 10:41:03.481241 2017] [mpm_winnt:notice] [pid 3064:tid 404] AH00418: Parent: Created child process 3520
+[Tue Jun 20 10:41:04.090676 2017] [ssl:warn] [pid 3520:tid 256] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 20 10:41:04.325082 2017] [ssl:warn] [pid 3520:tid 256] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Tue Jun 20 10:41:04.340702 2017] [mpm_winnt:notice] [pid 3520:tid 256] AH00354: Child: Starting 64 worker threads.
+[Wed Jun 21 09:55:57.737946 2017] [ssl:warn] [pid 2648:tid 496] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 21 09:55:58.253726 2017] [core:warn] [pid 2648:tid 496] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 21 09:55:58.300392 2017] [ssl:warn] [pid 2648:tid 496] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 21 09:55:58.300392 2017] [mpm_winnt:notice] [pid 2648:tid 496] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Wed Jun 21 09:55:58.300392 2017] [mpm_winnt:notice] [pid 2648:tid 496] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed Jun 21 09:55:58.300392 2017] [core:notice] [pid 2648:tid 496] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Wed Jun 21 09:55:58.300392 2017] [mpm_winnt:notice] [pid 2648:tid 496] AH00418: Parent: Created child process 3840
+[Wed Jun 21 09:55:58.706683 2017] [ssl:warn] [pid 3840:tid 296] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 21 09:55:58.956709 2017] [ssl:warn] [pid 3840:tid 296] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 21 09:55:58.956709 2017] [mpm_winnt:notice] [pid 3840:tid 296] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 22 09:58:44.774936 2017] [ssl:warn] [pid 4000:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 22 09:58:45.821674 2017] [core:warn] [pid 4000:tid 396] AH00098: pid file C:/Bitnami/solr-6.5.1-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 22 09:58:45.875436 2017] [ssl:warn] [pid 4000:tid 396] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 22 09:58:45.875436 2017] [mpm_winnt:notice] [pid 4000:tid 396] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h configured -- resuming normal operations
+[Thu Jun 22 09:58:45.875436 2017] [mpm_winnt:notice] [pid 4000:tid 396] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Jun 22 09:58:45.875436 2017] [core:notice] [pid 4000:tid 396] AH00094: Command line: 'C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/solr-6.5.1-0/apache2 -f C:\\Bitnami\\SOLR-6~1.1-0\\apache2\\conf\\httpd.conf'
+[Thu Jun 22 09:58:45.876468 2017] [mpm_winnt:notice] [pid 4000:tid 396] AH00418: Parent: Created child process 4228
+[Thu Jun 22 09:58:46.320590 2017] [ssl:warn] [pid 4228:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 22 09:58:46.681267 2017] [ssl:warn] [pid 4228:tid 280] AH01909: localhost:444:0 server certificate does NOT include an ID which matches the server name
+[Thu Jun 22 09:58:46.684277 2017] [mpm_winnt:notice] [pid 4228:tid 280] AH00354: Child: Starting 64 worker threads.

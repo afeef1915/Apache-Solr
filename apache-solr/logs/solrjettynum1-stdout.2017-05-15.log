@@ -1,0 +1,23 @@
+
+2017-05-15 18:16:23 Commons Daemon procrun stdout initialized
+
+C:\Windows\system32>set JAVA_HOME=C:\Bitnami\solr-6.5.1-0\java 
+
+C:\Windows\system32>set SOLR_SERVER_DIR=C:\Bitnami\solr-6.5.1-0/apache-solr/server 
+
+C:\Windows\system32>set SOLR_PORT=8983 
+
+C:\Windows\system32>set STOP_PORT=8079 
+WARNING: 32-bit Java detected. Not recommended for production. Point your JAVA_HOME to a 64-bit JDK
+
+Waiting up to 30 to see Solr running on port 8983
+Started Solr server on port 8983. Happy searching!
+
+C:\Windows\system32>set JAVA_HOME=C:\Bitnami\solr-6.5.1-0\java 
+
+C:\Windows\system32>set SOLR_SERVER_DIR=C:\Bitnami\solr-6.5.1-0/apache-solr/server 
+
+C:\Windows\system32>set SOLR_PORT=8983 
+
+C:\Windows\system32>set STOP_PORT=8079 
+Stopping Solr process 7836 running on port 8983

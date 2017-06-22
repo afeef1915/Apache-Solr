@@ -1,0 +1,5 @@
+
+2017-06-20 10:41:01 Commons Daemon procrun stderr initialized
+
+ERROR: Solr at http://localhost:8983/solr did not come online within 30 seconds!
+

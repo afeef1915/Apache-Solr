@@ -1,0 +1,86 @@
+2017-06-22 04:30:06.037 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-06-22 04:31:57.258 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.1
+2017-06-22 04:31:57.259 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-06-22 04:31:57.259 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Bitnami\solr-6.5.1-0\apache-solr
+2017-06-22 04:31:58.075 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-06-22T04:31:57.260Z
+2017-06-22 04:31:58.076 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-06-22 04:31:59.147 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Bitnami\solr-6.5.1-0/apache-solr/server\solr
+2017-06-22 04:31:59.322 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\solr.xml
+2017-06-22 04:32:11.152 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-06-22 04:32:12.794 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr
+2017-06-22 04:32:12.850 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [mis_solr, mtl_solr, person]
+2017-06-22 04:32:15.176 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.SolrResourceLoader [mtl_solr] Added 54 libs to classloader, from paths: [/C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/clustering/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/dataimporthandler/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/extraction/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/langid/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/velocity/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/dist, /C:/Bitnami/solr-6.5.1-0/apache-solr/server/lib]
+2017-06-22 04:32:15.176 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.SolrResourceLoader [person] Added 51 libs to classloader, from paths: [/C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/clustering/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/extraction/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/langid/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/velocity/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/dist]
+2017-06-22 04:32:15.175 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.SolrResourceLoader [mis_solr] Added 54 libs to classloader, from paths: [/C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/clustering/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/dataimporthandler/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/extraction/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/langid/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/contrib/velocity/lib, /C:/Bitnami/solr-6.5.1-0/apache-solr/dist, /C:/Bitnami/solr-6.5.1-0/apache-solr/server/lib]
+2017-06-22 04:32:25.547 INFO  (main) [   ] o.e.j.s.Server Started @158695ms
+2017-06-22 04:33:17.370 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2017-06-22 04:33:17.378 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2017-06-22 04:33:17.385 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.1
+2017-06-22 04:33:17.565 WARN  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2017-06-22 04:33:17.623 WARN  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2017-06-22 04:33:17.648 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.s.IndexSchema [person] Schema name=example-data-driven-schema
+2017-06-22 04:33:17.648 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.s.IndexSchema [mis_solr] Schema name=example-data-driven-schema
+2017-06-22 04:33:17.665 WARN  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2017-06-22 04:33:17.674 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.s.IndexSchema [mtl_solr] Schema name=example-data-driven-schema
+2017-06-22 04:33:18.071 WARN  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-06-22 04:33:18.092 WARN  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-06-22 04:33:19.818 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-06-22 04:33:19.882 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.CoreContainer Creating SolrCore 'person' using configuration from instancedir C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\person
+2017-06-22 04:33:19.992 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-06-22 04:33:20.002 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.SolrCore [[person] ] Opening new SolrCore at [C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\person], dataDir=[C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\person\data\]
+2017-06-22 04:33:20.010 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@4baf4a
+2017-06-22 04:33:20.548 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-06-22 04:33:20.659 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-06-22 04:33:20.931 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-06-22 04:33:20.951 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.CoreContainer Creating SolrCore 'mtl_solr' using configuration from instancedir C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mtl_solr
+2017-06-22 04:33:20.952 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-06-22 04:33:20.953 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.SolrCore [[mtl_solr] ] Opening new SolrCore at [C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mtl_solr], dataDir=[C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mtl_solr\data\]
+2017-06-22 04:33:20.953 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@4baf4a
+2017-06-22 04:33:20.957 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.CoreContainer Creating SolrCore 'mis_solr' using configuration from instancedir C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mis_solr
+2017-06-22 04:33:20.958 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-06-22 04:33:20.958 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.SolrCore [[mis_solr] ] Opening new SolrCore at [C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mis_solr], dataDir=[C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mis_solr\data\]
+2017-06-22 04:33:20.958 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@4baf4a
+2017-06-22 04:33:21.050 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-06-22 04:33:21.658 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-06-22 04:33:22.804 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-06-22 04:33:22.806 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-06-22 04:33:22.804 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-06-22 04:33:22.807 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-06-22 04:33:22.807 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-06-22 04:33:22.807 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-06-22 04:33:23.126 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-06-22 04:33:23.127 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-06-22 04:33:23.151 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-06-22 04:33:23.152 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-06-22 04:33:23.174 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.s.SolrIndexSearcher Opening [Searcher@569d66[mis_solr] main]
+2017-06-22 04:33:23.181 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mis_solr\conf
+2017-06-22 04:33:23.197 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-06-22 04:33:23.202 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-06-22 04:33:23.205 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mis_solr\conf\elevate.xml
+2017-06-22 04:33:23.833 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-06-22 04:33:23.833 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-06-22 04:33:23.848 INFO  (coreLoadExecutor-6-thread-1) [   x:mis_solr] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-06-22 04:33:23.874 INFO  (searcherExecutor-9-thread-1-processing-x:mis_solr) [   x:mis_solr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@569d66[mis_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-06-22 04:33:23.874 INFO  (searcherExecutor-9-thread-1-processing-x:mis_solr) [   x:mis_solr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-06-22 04:33:23.874 INFO  (searcherExecutor-9-thread-1-processing-x:mis_solr) [   x:mis_solr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-06-22 04:33:23.876 INFO  (searcherExecutor-9-thread-1-processing-x:mis_solr) [   x:mis_solr] o.a.s.c.SolrCore [mis_solr] Registered new searcher Searcher@569d66[mis_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-06-22 04:33:24.079 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.s.SolrIndexSearcher Opening [Searcher@127a243[mtl_solr] main]
+2017-06-22 04:33:24.079 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mtl_solr\conf
+2017-06-22 04:33:24.080 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-06-22 04:33:24.080 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-06-22 04:33:24.080 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\mtl_solr\conf\elevate.xml
+2017-06-22 04:33:24.160 INFO  (coreLoadExecutor-6-thread-2) [   x:mtl_solr] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-06-22 04:33:24.164 INFO  (searcherExecutor-8-thread-1-processing-x:mtl_solr) [   x:mtl_solr] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@127a243[mtl_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(6.5.1):C2)))}
+2017-06-22 04:33:24.164 INFO  (searcherExecutor-8-thread-1-processing-x:mtl_solr) [   x:mtl_solr] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-06-22 04:33:24.164 INFO  (searcherExecutor-8-thread-1-processing-x:mtl_solr) [   x:mtl_solr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-06-22 04:33:24.165 INFO  (searcherExecutor-8-thread-1-processing-x:mtl_solr) [   x:mtl_solr] o.a.s.c.SolrCore [mtl_solr] Registered new searcher Searcher@127a243[mtl_solr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(6.5.1):C2)))}
+2017-06-22 04:33:24.446 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.s.SolrIndexSearcher Opening [Searcher@1f6c5c[person] main]
+2017-06-22 04:33:24.447 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\person\conf
+2017-06-22 04:33:24.448 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-06-22 04:33:24.448 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-06-22 04:33:24.448 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Bitnami\solr-6.5.1-0\apache-solr\server\solr\person\conf\elevate.xml
+2017-06-22 04:33:24.520 INFO  (coreLoadExecutor-6-thread-3) [   x:person] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-06-22 04:33:24.520 INFO  (searcherExecutor-7-thread-1-processing-x:person) [   x:person] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1f6c5c[person] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C10)))}
+2017-06-22 04:33:24.520 INFO  (searcherExecutor-7-thread-1-processing-x:person) [   x:person] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-06-22 04:33:24.520 INFO  (searcherExecutor-7-thread-1-processing-x:person) [   x:person] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-06-22 04:33:24.521 INFO  (searcherExecutor-7-thread-1-processing-x:person) [   x:person] o.a.s.c.SolrCore [person] Registered new searcher Searcher@1f6c5c[person] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C10)))}

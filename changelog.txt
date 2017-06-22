@@ -1,0 +1,262 @@
+============ CHANGELOG =============
+
+Version 6.5.1-0      2017-05-04
+
+Version 6.5.0-0      2017-03-27
+* Updated Solr to 6.5.0
+
+Version 6.4.2-0      2017-03-08
+* Updated Solr to 6.4.2
+
+Version 6.4.1-0      2017-02-06
+* Updated Solr to 6.4.1
+* Updated OpenSSL to 1.0.2k (Security fixes for CVE-2017-3731, CVE-2017-3731, CVE-2017-3731, and CVE-2016-7055)
+* Updated Java to 1.8.0_121
+
+Version 6.4.0-0      2017-01-24
+* Updated Solr to 6.4.0
+* Updated Apache to 2.4.25
+* Updated Java to 1.8.0_111
+
+Version 6.2.1-2      2016-10-07
+* Updated documentation links in the Bitnami information page
+
+Version 6.2.1-1      2016-09-28
+* Updated OpenSSL to 1.0.2j (Security fix CVE-2016-6304)
+
+Version 6.2.1-0      2016-09-20
+* Updated Solr to 6.2.1
+
+Version 6.2.0-0      2016-08-25
+* Updated Solr to 6.2.0
+* Patched Off-Path TCP Linux Kernel Vulnerability in Cloud Images and Virtual Machines (Security release CVE-2016-5696)
+
+Version 6.1.0-2      2016-07-26
+* Updated Java to 1.8.0_101
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+* Updated Apache to 2.4.23
+
+Version 6.1.0-1      2016-06-30
+* Fixed a bug in Windows related to crashing with PATH longer than 256 characters
+
+Version 6.1.0-0      2016-06-17
+* Updated Solr to 6.1.0
+
+Version 6.0.1-0      2016-05-31
+* Updated Solr to 6.0.1
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+
+Version 6.0.0-1      2016-05-05
+* Fix query issue with new WebUI
+* Change directory structure
+* Updated PageSpeed to 1.9.32.14
+* Updated Java to 1.8.0_91 (Security release CVE-2016-3427, CVE-2016-3427, CVE-2016-3425)
+* Updated Apache to 2.4.20
+
+Version 6.0.0-0      2016-04-11
+* Updated Solr to 6.0.0
+* Updated Java to 1.8.0_77
+
+Version 5.5.0-1      2016-03-14
+* Updated OpenSSL to 1.0.2g (Security release CVE-2016-0800)
+* Improved Bitnami button info page
+
+Version 5.5.0-0      2016-03-02
+* Updated Solr to 5.5.0
+* Added htpassword auth
+
+Version 5.4.1-2      2016-02-10
+* Enabled Bitnami button in cloud images and VMs
+
+Version 5.4.1-1      2016-02-03
+* Updated OpenSSL to 1.0.2f (Security release CVE-2016-0701)
+
+Version 5.4.1-0      2016-01-28
+* Updated Solr to 5.4.1
+* Updated OpenSSL to 1.0.2e
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+* Updated Apache to 2.4.18
+
+Version 5.4.0-0      2015-12-11
+* Updated Solr to 5.4.0
+* Updated OpenSSL to 1.0.1q
+
+Version 5.3.1-1      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+* Updated Java to 1.8.0_65
+* Updated Apache to 2.4.17
+
+Version 5.3.1-0      2015-09-24
+* Updated Solr to 5.3.1
+
+Version 5.3.0-1      2015-09-23
+* Updated Java to 1.8.0_51
+
+Version 5.3.0-0      2015-08-27
+* Updated Solr to 5.3.0
+* Updated Apache to 2.4.16
+
+Version 5.2.1-1      2015-07-10
+* Updated OpenSSL to 1.0.1p
+
+Version 5.2.1-0      2015-06-21
+* Updated Solr to 5.2.1
+* Updated solr to 5.2.0
+* Dropping RC4 from Apache SSLCipherSuite directive
+
+Version 5.1.0-1      2015-04-30
+* Added bin/ folder
+
+Version 5.1.0-0      2015-04-17
+* Updated Solr to 5.1.0
+* Updated OpenSSL to 1.0.1m
+
+Version 5.0.0-0      2015-03-03
+* Updated Java to 1.7.0_76
+* Updated Apache to 2.4.12
+* Updated PageSpeed to 1.9.32.3
+* Updated OpenSSL to 1.0.1k (Linux and OS X)
+
+Version 4.10.3-0      2014-12-22
+* Updated Solr to 4.10.3
+
+Version 4.10.2-0      2014-10-30
+* Updated Solr to 4.10.2
+* Updated OpenSSL to 1.0.1j
+
+Version 4.10.1-0      2014-09-30
+* Updated Java to 1.7.0_67
+
+Version 4.10.0-0      2014-09-08
+* Updated Solr to 4.10.0
+* Fix Solr issue with shell on Ubuntu 14.04
+* Updated OpenSSL to 1.0.1i
+* Updated Apache to 2.4.10
+* Updated Java to 1.7.0_65
+* Updated Libxslt to 1.1.28
+* Updated Libxml2 to 2.9.1
+
+Version 4.9.0-0      2014-06-25
+* Updated Java to 1.7.0_60
+* Updated OpenSSL to 1.0.1h
+* Updated Java to 1.7.0_55
+
+Version 4.8.1-0      2014-05-20
+* Updated solr to 4.8.1
+
+Version 4.8.0-0      2014-04-28
+* Updated solr to 4.8.0
+
+Version 4.7.2-0      2014-04-15
+* Updated solr to 4.7.2
+
+Version 4.7.1-1      2014-04-08
+* Updated OpenSSL to 1.0.1g
+
+Version 4.7.1-0      2014-04-01
+* Updated Apache to 2.4.9
+
+Version 4.7.0-0      2014-02-26
+* Updated solr to 4.7.0
+
+Version 3.6.2-0      2014-02-17
+* Updated Solr to 3.6.2
+* Updated Java to 1.7.0_51
+
+Version 4.6.1-0      2014-01-28
+* Updated  to 4.6.0
+* Updated OpenSSL to 1.0.1f in Linux and OSX
+
+Version 4.6.0-1      2013-11-27
+* Fixed an issue in Java memory settings for large AWS instances.
+
+Version 4.6.0-0      2013-11-25
+* Updated Solr to 4.6.0
+
+Version 4.5.1-0      2013-10-24
+* Updated Solr to 4.5.1
+* Updated Java to 1.7.0_45
+
+Version 4.5.0-0      2013-10-07
+* Updated Solr to 4.5.0
+
+Version 4.4.0-0      2013-07-24
+* Updated Solr to 4.4.0
+* Updated Java to 1.7.0_40
+
+Version 4.3.1-1      2013-06-28
+* Updated Java to 1.7.0_25
+
+Version 4.3.1-0      2013-06-18
+* Updated Solr to 4.3.1
+
+Version 4.3.0-0      2013-05-06
+* Updated Solr to 4.3.0
+* Upgrade Java to 1.7.0_21
+
+Version 4.2.1-0      2013-04-03
+* Updated Solr to 4.2.1
+
+Version 4.2.0-0      2013-03-11
+* Updated Solr to 4.2.0
+
+Version 4.1.0-1      2013-02-26
+* Updated MySQL to 5.5.29
+* Updated JDK to 1.7_15
+
+Version 4.1.0-0      2013-01-24
+* Updated Solr to 4.1.0
+* Updated Apache to 2.4.3
+* Updated MySQL to 5.5.28
+* Updated JDK to 1.7_10
+
+Version 4.0.0-0      2012-10-26
+* Updated Solr to 4.0.0
+* Updated JDK to 1.7.0_07
+
+Version 3.6.1-0      2012-08-01
+* Updated Solr to 3.6.1
+* Included Solr dist folder
+* Changed Solr server to run as 'solr' user when
+it is installed as root
+
+Version 3.6.0-0      2012-06-20
+* Updated Solr to 3.6.0
+* Updated Java JDK to 1.6.0_33
+
+Version 1.4.0-0      2017-05-04
+* Updated solr to 5.2.0
+
+Version 4.9.0-0      2014-06-25
+
+Version 4.8.1-0      2014-05-20
+
+Version 4.8.0-0      2014-04-28
+
+Version 4.7.2-0      2014-04-15
+
+Version 4.7.1-1      2014-04-08
+
+Version 4.7.1-0      2014-04-01
+
+Version 4.7.0-0      2014-02-26
+* Updated solr to 4.7.0
+
+Version 3.6.2-0      2014-02-17
+
+Version 4.6.1-0      2014-01-28
+* Updated  to 4.6.0
+
+Version 4.6.0-1      2013-11-27
+
+Version 4.6.0-0      2013-11-25
+
+Version 4.5.1-0      2013-10-24
+
+Version 4.5.0-0      2013-10-07
+* Upgrade Java to 1.7.0_21
+* Updated JDK to 1.7_10
+* Initial release
+* Apache Solr 1.4.0
+* Apache 2.2.22
+* JDK 1.6.0_27
